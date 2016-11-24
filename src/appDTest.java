@@ -27,7 +27,10 @@ public class appDTest {
 		// js.executeScript("return jQuery.active;");
 		Object numberOfAjaxConnections = js.executeScript("return jQuery.active");
 		System.out.println(numberOfAjaxConnections.toString());
-
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
 	}
 
 	@After
